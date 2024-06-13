@@ -1,0 +1,105 @@
+.request__loan {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  height: 100%;
+  background: url("@/assets/img/loan_bg.svg") center/cover no-repeat;
+}
+
+.request__loan .loan__text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 14px;
+}
+
+.request__loan .loan__text p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 19.8px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
+}
+
+.request__loan .loan__text .submit__text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15.4px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+  margin-bottom: 8px;
+}
+
+.request__loan .loan__submit {
+  display: flex;
+  gap: 24px;
+}
+
+.request__loan .loan__submit .submit__input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.request__loan .loan__submit .submit__input input {
+  padding: 14px 20px 14px 20px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: rgba(37, 44, 44, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.4px;
+  text-align: left;
+  outline: none;
+  color: rgba(147, 150, 151, 1);
+  border: 1px solid rgba(147, 150, 151, 1);
+}
+
+.request__loan .loan__submit .submit__btn .requests__title__btn {
+  padding: 14px 30px 14px 30px;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(255, 149, 73, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.4px;
+  text-align: left;
+  color: rgba(24, 24, 24, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.request__loan .loan__submit .submit__btn .requests__title__btn span {
+  font-size: 20px;
+  margin-left: 10px;
+  border: 1.5px 0px 0px 0px;
+}
+
+input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgba(147, 150, 151, 1);
+  background-color: rgba(37, 44, 44, 1);
+  accent-color: rgba(37, 44, 44, 1);
+}
+
+.request__loan .loan__checked {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 15px;
+}
+
+.request__loan .loan__checked label {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 13.2px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 8px;
+}

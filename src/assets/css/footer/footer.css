@@ -1,0 +1,284 @@
+.footer {
+  padding-top: 50px;
+  width: auto;
+  height: 100%;
+  background: rgba(24, 24, 24, 1);
+}
+
+.footer .footer__requests {
+  background: rgba(28, 33, 33, 1);
+  width: 1296px;
+  height: 240px;
+  top: 5447px;
+  left: 312px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  padding: 40px 0px 0px 40px;
+}
+
+.footer .requests__title h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 40px;
+}
+
+.footer .requests__title__btn {
+  padding: 14px 22px 14px 30px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: rgba(255, 149, 73, 1);
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.4px;
+  text-align: left;
+  color: rgba(24, 24, 24, 1);
+}
+
+.footer .requests__title__btn span {
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.footer .requests__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer .requests__info .info__img img {
+  width: 140px;
+  height: 140px;
+  opacity: 0px;
+}
+
+.footer .requests__info h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer .requests__info p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.4px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+}
+
+.footer .location__img {
+  width: 100%;
+  position: relative;
+  top: 70px;
+}
+
+.footer .location__img .map__img {
+  height: 451px;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.footer .location__img .map__icon {
+  position: absolute;
+  top: 121px;
+  left: 624px;
+}
+
+.footer .map__request {
+  top: 80%;
+  width: 96%;
+  right: 3%;
+  background: rgba(28, 33, 33, 1);
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 10px;
+  position: absolute;
+  padding-bottom: 24px;
+}
+.footer .footer__location {
+  position: relative;
+}
+
+.footer .map__request .adress__title,
+.telefon__title,
+.working__title,
+.telefon__text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17.64px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+  margin-bottom: 4px;
+}
+
+.footer .map__request .telefon__text span {
+  color: rgba(0, 209, 84, 1);
+  font-size: 18px;
+}
+
+.footer .map__request .adress__text,
+.telefon__number,
+.working__info {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.2px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer .map__request .telefon__number {
+  margin-bottom: 4px;
+}
+
+.footer .map__request .request__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+.footer .footer__disclaimer {
+  margin-top: 130px;
+}
+
+.footer .footer__disclaimer .disclaimer__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.16px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 26px;
+}
+
+.footer .footer__disclaimer .disclaimer__text {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 22.4px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+}
+
+.footer .footer__tank__date {
+  margin-top: 60px;
+}
+
+.footer .tank__date__info h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17.6px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 4px;
+}
+
+.footer .tank__date__info .data__info__diler {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15.4px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+  margin-bottom: 4px;
+}
+
+.footer .tank__date__info .data__info__location {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.4px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+  margin-left: 6px;
+  margin-bottom: 43px;
+  margin-top: 43px;
+}
+
+.footer .tank__date__info .data__info__carcod {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.4px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+}
+
+.footer .tank__date__calling .request__telefon {
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  gap: 40px;
+}
+
+.footer .tank__date__calling .request__telefon .telefon__title .telefon__text span {
+  color: rgba(0, 209, 84, 1);
+  font-size: 18px;
+  padding-left: 82 px;
+}
+
+.footer .tank__date__calling .request__telefon .telefon__title .telefon__number {
+  margin-bottom: 4px;
+}
+
+.footer .tank__date__calling .request__btn .requests__title__btn {
+  padding: 14px 30px 14px 30px;
+}
+
+.footer .tank__date__calling .request__btn .requests__title__btn span img {
+  width: 15.89px;
+  height: 15.97px;
+  margin-right: 10px;
+  border: 1.5px 0px 0px 0px;
+}
+
+.footer .tank__date__calling .calling__text {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 38px;
+  gap: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15.4px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer .footer__hr {
+  color: white;
+  width: 100%;
+  background: rgba(147, 150, 151, 1);
+  height: 0px;
+  border: 1px 0px 0px 0px;
+  border: 1px solid rgba(147, 150, 151, 1);
+  margin-top: 60px;
+}
+
+.footer .footer__end__text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer .footer__end__text .end__text__one p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.4px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+}
+
+.footer .footer__end__text .end__text__two {
+  display: flex;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.4px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+  gap: 60px;
+}

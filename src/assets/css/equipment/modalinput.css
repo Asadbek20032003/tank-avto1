@@ -1,0 +1,28 @@
+.selects {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.selects__details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px 14px 20px;
+}
+
+.details__items select {
+  border: 1px solid rgb(147, 150, 151);
+  border-radius: 8px;
+
+  background: rgb(37, 44, 44);
+  margin: 8px 0px;
+  padding: 14px 20px 14px 20px;
+  width: 100%;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}

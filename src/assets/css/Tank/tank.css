@@ -1,0 +1,152 @@
+.tank_button button {
+  display: block;
+}
+.tank_title {
+  padding: 50px 0px;
+}
+.tank_color {
+  color: #ff9549;
+}
+.btn_tank1 {
+  width: 100%;
+  background-color: #ff9549;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.btn_tank {
+  width: 100%;
+  background-color: #252c2c;
+  color: white;
+  border: 1px solid #ff9549;
+  margin: 10px 0px;
+}
+.tank_title {
+  display: flex;
+  gap: 40px;
+}
+.Tank {
+  background-color: #252c2c;
+}
+.tank_left {
+  color: white;
+}
+
+.tank_button {
+  margin: 30px 0px;
+}
+.tank_button Button {
+  margin-bottom: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 14px 30px 14px 30px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid rgb(255, 149, 73);
+}
+.tank_button Button:nth-child(1) {
+  border-radius: 8px;
+  background: rgb(255, 149, 73);
+  padding: 14px 30px 14px 30px;
+  width: 100%;
+  color: rgb(24, 24, 24);
+  border: 1px solid rgb(255, 149, 73);
+}
+
+.tank_button Button:hover {
+  background-color: #383838;
+  border: 1px solid rgb(255, 149, 73);
+}
+.tank_button Button:hover:nth-child(1) {
+  background-color: #fe8630;
+}
+.tank_button Button img {
+  padding-left: 10px;
+}
+
+/* styles.css */
+@import "swiper/css";
+@import "swiper/css/pagination";
+
+/* Tank.css */
+.tank_list {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: aliceblue;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  background: rgb(24, 24, 24);
+  text-align: center;
+  align-items: center;
+  padding: 14px 10px;
+  justify-content: center;
+}
+.tank_list p {
+  font-size: 16px;
+  width: 100%;
+  line-height: 1.2px;
+}
+
+.tank_list p img {
+  padding-right: 10px;
+}
+
+.mySwiper {
+  height: 400px; /* Swiperning balandligini mos ravishda sozlang */
+  width: 100%;
+}
+
+.waring {
+  display: inline-block;
+  border-radius: 10px;
+  background: rgb(255, 43, 0);
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6px 0;
+}
+
+.waring p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+.waring p img {
+  padding: 0 10px;
+}
+.swiper-pagination-bullet {
+  width: 30px;
+  height: 30px;
+}
+
+.swiper-pagination-bullet:nth-child(1) {
+  background-color: red;
+}
+
+.swiper-pagination-bullet:nth-child(2) {
+  background-color: rgb(223, 76, 48);
+}
+
+.swiper-pagination-bullet:nth-child(3) {
+  background-color: rgb(198, 201, 206);
+}
+
+.swiper-pagination-bullet:nth-child(4) {
+  background-color: rgb(33, 35, 41);
+}
+.swiper-pagination-bullet:nth-child(5) {
+  background-color: rgb(230, 231, 232);
+}
+
+.swiper-pagination-bullet-active {
+  background-image: url("./../../image/icons/check.svg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+}

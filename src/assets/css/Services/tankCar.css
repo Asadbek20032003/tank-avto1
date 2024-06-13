@@ -1,0 +1,30 @@
+.tankCar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  padding-top: 122px;
+}
+.tankCar h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.tankCar__cars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.tankCar__cars img {
+  width: 195px;
+}
+
+.cars__tank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

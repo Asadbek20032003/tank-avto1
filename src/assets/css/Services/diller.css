@@ -1,0 +1,32 @@
+.diller {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding-top: 60px;
+  gap: 24px;
+}
+
+.diller__item {
+  display: flex;
+  padding: 10px;
+  width: 33.3%;
+  border: 1px solid rgb(147, 150, 151);
+  border-radius: 10px;
+  gap: 20px;
+}
+.diller__item img {
+  width: 36px;
+  height: 36px;
+}
+.diller__item .item__title h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.diller__item .item__title p {
+  font-size: 16px;
+  line-height: 100%;
+  font-weight: 300;
+}

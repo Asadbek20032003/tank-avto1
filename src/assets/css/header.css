@@ -1,0 +1,74 @@
+:root {
+  --color-white: #ffff;
+  --color-black0: #181818;
+  --color-black1: #1c2121;
+  --color-black2: #252c2c;
+  --color-grey: #939697;
+  --color-orange0: #ff9549;
+  --color-hover-orange1: #fe8630;
+  --color-hover-black3: #383838;
+  --color-signal-red: #ff2b00;
+}
+.header {
+  background-image: url("../image/cars/headerimg.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  padding: 200px;
+  /* position: relative; */
+}
+/* .header::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background: linear-gradient(
+    90deg,
+    rgba(71, 70, 94, 1) 0%,
+    rgba(2, 1, 4, 1) 0%,
+    rgba(8, 17, 19, 1) 0%,
+    rgba(127, 131, 132, 1) 58%,
+    rgba(255, 255, 255, 1) 100%
+  );
+} */
+.header .header__items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-star;
+}
+
+.header .header__items p {
+  color: var(--color-white);
+  line-height: 110%;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.header .header__items h1 {
+  color: var(--color-white);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+.header .header__items .items__title {
+  margin-bottom: 40px;
+}
+
+.header .header__items Button {
+  padding: 14px 30px;
+  background-color: var(--color-orange0);
+  color: var(--color-black0);
+  border-radius: 8px;
+  border: 1px solid rgb(255, 149, 73);
+}
+.header .header__items Button:hover {
+  background-color: var(--color-hover-orange1);
+}
+.header .header__items Button img {
+  padding-left: 10px;
+}

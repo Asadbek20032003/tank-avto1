@@ -1,0 +1,17 @@
+:root {
+  --color-white: #ffff;
+  --color-black0: #181818;
+  --color-black1: #1c2121;
+  --color-black2: #252c2c;
+  --color-grey: #939697;
+  --color-orange0: #ff9549;
+  --color-hover-orange1: #fe8630;
+  --color-hover-black3: #383838;
+  --color-signal-red: #ff2b00;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

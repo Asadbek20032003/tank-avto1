@@ -1,0 +1,26 @@
+.selects {
+  background: rgba(24, 24, 24, 1);
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.selects label {
+  font-family: TT TANK;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15.4px;
+  text-align: left;
+  color: rgba(147, 150, 151, 1);
+  margin-bottom: 8px;
+}
+.selects .select__info {
+  display: flex;
+  flex-direction: column;
+}
+#city-select {
+  padding: 14px 20px 14px 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(147, 150, 151, 1);
+  background: rgba(37, 44, 44, 1);
+  color: rgba(147, 150, 151, 1);
+}
